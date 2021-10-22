@@ -1,0 +1,6 @@
+{
+    "files.autoSave": "afterDelay",
+    "scm.countBadge": "off",
+    "scm.diffDecorationsGutterAction": "none",
+    "git.showCommitInput": false
+}
