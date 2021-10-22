@@ -4,6 +4,8 @@ This project was specially made for ATL Space Challenge.
 We made an app to spread awareness about some mysterious and yet interesting objects in Outer space.
 The contributors to make this app possible are Pinak Parate and Yug Patil.
 
+We have used various packages to make the main feature in the app.
+
 ## Getting Started with Flutter
 
 A few resources to get you started with your first Flutter project:
