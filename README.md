@@ -1,7 +1,9 @@
 # atl_proto
 
 This project was specially made for ATL Space Challenge.
-We made an app to spread awareness about some mysterious and yet interesting objects in Outer space.
+It gives the audience information about some of the most mysterious and yet interesting objects in Outer space.
+The app has a clean, simple, and yet elegant UI.
+The contributors to this project are Pinak and Yug.
 The contributors to make this app possible are Pinak Parate and Yug Patil.
 
 We have used various packages to make the main feature in the app.
