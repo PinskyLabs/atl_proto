@@ -5,6 +5,7 @@ It gives the audience information about some of the most mysterious and yet inte
 The app has a clean, simple, and yet elegant UI.
 The contributors to this project are Pinak and Yug.
 The contributors to make this app possible are Pinak Parate and Yug Patil.
+View the working of prototype here - https://www.youtube.com/watch?v=HGu1Trf_3w4
 
 We have used various packages to make the main feature in the app.
 
