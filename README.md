@@ -10,6 +10,8 @@ We have used various packages to make the main feature in the app.
 
 Drop me an email to get the .apk file of the app.
 
+If you want to use any of our code, please credit us.
+
 ## Getting Started with Flutter
 
 A few resources to get you started with your first Flutter project:
