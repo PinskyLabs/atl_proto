@@ -7,6 +7,7 @@ This project was specially made for ATL Space Challenge.
 - View the working of prototype here - https://www.youtube.com/watch?v=HGu1Trf_3w4
 
 We have used various packages to make the main feature in the app.
+Drop me an email to get the .apk file of the app.
 
 ## Getting Started with Flutter
 
