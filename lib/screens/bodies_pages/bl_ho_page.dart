@@ -50,15 +50,18 @@ class _BlHoPageState extends State<BlHoPage> {
                     height: 480,
                     child: HoverCard(
                       builder: (context, hovering) {
-                        return Container(
-                          width: MediaQuery.of(context).size.width,
-                          height: MediaQuery.of(context).size.height,
-                          decoration: BoxDecoration(
-                            color: Colors.transparent,
-                            image: DecorationImage(
-                                scale: 1,
-                                fit: BoxFit.cover,
-                                image: AssetImage("assets/images/transblaho.png")),
+                        return Hero(
+                          tag: "Black Hole Pic",
+                          child: Container(
+                            width: MediaQuery.of(context).size.width,
+                            height: MediaQuery.of(context).size.height,
+                            decoration: BoxDecoration(
+                              color: Colors.transparent,
+                              image: DecorationImage(
+                                  scale: 1,
+                                  fit: BoxFit.cover,
+                                  image: AssetImage("assets/images/transblaho.png")),
+                            ),
                           ),
                         );
                       },
@@ -80,9 +83,12 @@ class _BlHoPageState extends State<BlHoPage> {
                     onDoubleTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => HomeForNav()));
                     },
-                    child: Image(
-                    fit: BoxFit.contain,
-                    image: AssetImage("assets/images/spaceship.png")),
+                    child: Hero(
+                      tag: "Spaceship",
+                      child: Image(
+                      fit: BoxFit.contain,
+                      image: AssetImage("assets/images/spaceship.png")),
+                    ),
                   ),
                 )
               ]),

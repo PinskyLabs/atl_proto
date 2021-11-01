@@ -170,11 +170,15 @@ class HomePage extends StatelessWidget {
                   },
                   splashColor: Colors.black,
                   splashFactory: NoSplash.splashFactory,
-                  child: Container(
-                    height: containerHeight + 140,
-                    decoration: BoxDecoration(
-                        color: Colors.transparent,
-                        image: DecorationImage(image: AssetImage("assets/images/transblaho.png"))),
+                  child: Hero(
+                    tag: "Black Hole Pic",
+                    child: Container(
+                      height: containerHeight + 140,
+                      decoration: BoxDecoration(
+                          color: Colors.transparent,
+                          image:
+                              DecorationImage(image: AssetImage("assets/images/transblaho.png"))),
+                    ),
                   ),
                 )),
               ]),
@@ -325,11 +329,14 @@ class HomePage extends StatelessWidget {
                     },
                     splashColor: Colors.white,
                     splashFactory: NoSplash.splashFactory,
-                    child: Container(
-                      height: containerHeight,
-                      decoration: BoxDecoration(
-                          color: Colors.transparent,
-                          image: DecorationImage(image: AssetImage("assets/images/neu sta.png"))),
+                    child: Hero(
+                      tag: "Neutron Star Pic",
+                      child: Container(
+                        height: containerHeight,
+                        decoration: BoxDecoration(
+                            color: Colors.transparent,
+                            image: DecorationImage(image: AssetImage("assets/images/neu sta.png"))),
+                      ),
                     ),
                   ),
                 ),
@@ -404,7 +411,10 @@ class HomePage extends StatelessWidget {
                 ),
               ]),
           SizedBox(height: 20),
-          Expanded(child: Image(image: AssetImage("assets/images/spaceship.png")))
+          Expanded(
+              child: Hero(
+                  tag: "Spaceship",
+                  child: Image(image: AssetImage("assets/images/spaceship.png"))))
         ],
       ),
     );

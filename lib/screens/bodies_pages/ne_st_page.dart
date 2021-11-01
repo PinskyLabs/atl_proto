@@ -50,12 +50,15 @@ class _NeStPageState extends State<NeStPage> {
                       height: 480,
                       child: HoverCard(
                         builder: (context, hovering) {
-                          return Container(
-                            decoration: BoxDecoration(
-                              color: Colors.transparent,
-                              image: DecorationImage(
-                                  fit: BoxFit.contain,
-                                  image: AssetImage("assets/images/neu sta.png")),
+                          return Hero(
+                            tag: "Neutron Star Pic",
+                            child: Container(
+                              decoration: BoxDecoration(
+                                color: Colors.transparent,
+                                image: DecorationImage(
+                                    fit: BoxFit.contain,
+                                    image: AssetImage("assets/images/neu sta.png")),
+                              ),
                             ),
                           );
                         },
@@ -78,9 +81,12 @@ class _NeStPageState extends State<NeStPage> {
                     onDoubleTap: () {
                   Navigator.push(context, MaterialPageRoute(builder: (context) => HomeForNav()));
                     },
-                    child: Image(
-                    fit: BoxFit.contain,
-                    image: AssetImage("assets/images/spaceship.png")),
+                    child: Hero(
+                      tag: "Spaceship",
+                      child: Image(
+                      fit: BoxFit.contain,
+                      image: AssetImage("assets/images/spaceship.png")),
+                    ),
                   ),
                 )
               ]),

@@ -7,7 +7,7 @@
         
         {
             "program": "lib/home_nav.dart",
-            "name": "full_release_app",
+            "name": "atl_proto",
             "request": "launch",
             "type": "dart"
         }
