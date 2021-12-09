@@ -3,8 +3,8 @@
 This project was specially made for ATL Space Challenge.
 - It gives the audience information about some of the most mysterious and yet interesting objects in Outer space.
 - The app has a clean, simple, and yet elegant UI.
-- The contributors to this project are Pinak and Yug.
-- View the working of prototype here - https://www.youtube.com/watch?v=HGu1Trf_3w4
+- The contributors to this project are Pinak 
+- For preview of app - https://www.youtube.com/watch?v=HGu1Trf_3w4
 
 We have used various packages to make the main feature in the app.
 
